@@ -7,7 +7,7 @@ class App extends React.Component {
         super(props);
 
 
-        this.stae = { lat: null };
+        this.state = { lat: null };
     }
 
 
