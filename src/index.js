@@ -20,6 +20,14 @@ class App extends React.Component {
         );
     }
 
+    componentDidMount() {
+        console.log('My component was rerendered to the screen');
+    }
+
+    componentDidUpdate() {
+        console.log('My component was just updated - it rerendered!');
+    }
+
 
 
     render() {
